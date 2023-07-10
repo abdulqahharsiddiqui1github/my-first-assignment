@@ -1,4 +1,54 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+/* common code starts from here*/
+.btn{
+    border-radius: 5px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+}
+
+/* common code end here */
+.benner-container{
+    height: 100vh;
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    justify-content: center;
+    align-items: center;
+}
+.benner{
+    margin-left: 200px;
+}
+
+.benner-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    width: 700px;
+}
+.benner-description{
+    width: 590px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+.image-div{
+    display: flex;
+    justify-content:end;
+    align-items: end;
+    width: 635px;
+    height: 690px;
+    padding-right: 100px;
+    margin-bottom: -10px;
+}
+.benner-img{
+    width: 500px;
+    height: 650px;
+    margin-top: 50px;
 }
